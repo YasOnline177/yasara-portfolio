@@ -5,15 +5,15 @@ export default function Navbar() {
         <nav className="fixed w-full bg-black/30 backdrop-blur-md border-b border-white/10 z-50 p-4 flex justify-between items-center">
             <h1 className="text-accent font-mono">Yasara</h1>
 
-            <div className="space-x-6" hidden md:flex>
-                {["about", "skills", "projects", "contact"].map((item) => (
-                    <Link key={item} to={item} smooth className="cursor-pointer">
+            <div className="hidden md:flex space-x-6 items-center">
+                {["about", "skills", "projects", "certificates","contact"].map((item) => (
+                    <Link key={item} to={item} smooth className="capitalize text-sm text-white/70 hover:text-accent transition cursor-pointer">
                         {item}
                     </Link>
                 ))}
             </div>
 
-            <a href="/assets/Yasara_Samaraweera_CV_Public.pdf" className="text-accent">
+            <a href="/assets/Yasara_Samaraweera_CV_Public.pdf" className="border border-accent text-accent text-sm px-4 py-1.5 rounded-lg hover:bg-accent hover:text-black transition">
                 CV
             </a>
         </nav>
