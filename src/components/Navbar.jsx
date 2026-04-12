@@ -2,7 +2,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
     return (
-        <nav className="fixed- w-full bg-black/30 backdrop-blur-md border-b border-white/10 z-50 p-4 flex justify-between items-center">
+        <nav className="fixed w-full bg-black/30 backdrop-blur-md border-b border-white/10 z-50 p-4 flex justify-between items-center">
             <h1 className="text-accent font-mono">Yasara</h1>
 
             <div className="space-x-6" hidden md:flex>
