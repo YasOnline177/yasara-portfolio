@@ -10,13 +10,13 @@ export default function Skills() {
             <div className="grid md:grid-cols-2 gap-6">
                 {Object.entries(skills).map(([category, items]) => (
 
-                    <div key={category} className="bg-surface p-6 rounded-xl border border-white/10 hover:border-accent/30 transition cursor-default">
+                    <div key={category} className="bg-surface p-6 rounded-xl border border-white/20  cursor-default">
                         
                         <h3 className="text-sm uppercase tracking-wide text-muted mb-4">{category}</h3>
 
                         <div className="flex flex-wrap gap-2">
                             {items.map((skill) => (
-                                <span key={skill} className="text-sm px-3 py-1 rounded-full border border-white/10 text-white/70 hover:text-white transition">
+                                <span key={skill} className="text-sm px-3 py-1 rounded-full border border-white/20 text-white/90 hover:border-accent transition">
                                     {skill}
                                 </span>
                             ))}

@@ -24,7 +24,7 @@ export default function Projects() {
 
                         <div className="flex gap-2 mt-4 flex-wrap"> 
                             {p.tech.map((t) => (
-                                <span key={t} className="text-xs border border-white/10 px-2 py-1 rounded-full text-white/70">
+                                <span key={t} className="text-xs border border-white/30 px-2 py-1 rounded-full text-accent/70">
                                     {t}
                                 </span>
                             ))}
@@ -51,7 +51,7 @@ export default function Projects() {
                             {p.tech.map((t) => (
                                 <span
                                     key={t}
-                                    className="text-xs border border-white/10 px-2 py-1 rounded-full text-white/70"
+                                    className="text-xs border border-white/30 px-2 py-1 rounded-full text-accent/70"
                                 >
                                     {t}
                                 </span>
