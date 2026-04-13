@@ -9,7 +9,7 @@ export default function Hero() {
             <div
                 className="absolute inset-0 -z-10"
                 style={{
-                backgroundImage: "radial-gradient(circle, #00ff9915 1px, transparent 1px)",
+                backgroundImage: "radial-gradient(circle, #00ff9925 1px, transparent 1px)",
                 backgroundSize: "32px 32px",
                 }}
             />
@@ -17,7 +17,7 @@ export default function Hero() {
             {/* Soft glow */}
             <div 
                 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 w-96 rounded-full"
-                style={{ background: "radial-gradient(circle, #00ff9910 0%, transparent 70%" }}
+                style={{ background: "radial-gradient(circle, #00ff9920 0%, transparent 70%" }}
             />
 
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-text">
