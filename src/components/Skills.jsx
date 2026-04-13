@@ -5,7 +5,7 @@ export default function Skills() {
     return (
         <SectionWrapper id="skills">
 
-            <h2 className="text-3xl mb-12">Skills</h2>
+            <h2 className="text-3xl font-bold mb-12">Skills</h2>
 
             <div className="grid md:grid-cols-2 gap-6">
                 {Object.entries(skills).map(([category, items]) => (
