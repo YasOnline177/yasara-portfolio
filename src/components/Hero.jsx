@@ -42,7 +42,7 @@ export default function Hero() {
             </p>
 
             <div className="mt-8 flex gap-4 flex-wrap justify-center">
-                <Link to="projects" smooth className="bg-accent text-black px-6 py-3 rounded-lg font-semibold hover:brightness-110 hover:scale-105 transition cursor-pointer">
+                <Link to="projects" smooth offset={-80} className="bg-accent text-black px-6 py-3 rounded-lg font-semibold hover:brightness-110 hover:scale-105 transition cursor-pointer">
                     View Projects
                 </Link>
 

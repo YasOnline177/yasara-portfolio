@@ -7,7 +7,7 @@ export default function Navbar() {
 
             <div className="hidden md:flex space-x-6 items-center">
                 {["about", "skills", "projects", "certificates","contact"].map((item) => (
-                    <Link key={item} to={item} smooth className="capitalize text-sm text-white/70 hover:text-accent transition cursor-pointer">
+                    <Link key={item} to={item} smooth offset={-80} className="capitalize text-sm text-white/70 hover:text-accent transition cursor-pointer">
                         {item}
                     </Link>
                 ))}
