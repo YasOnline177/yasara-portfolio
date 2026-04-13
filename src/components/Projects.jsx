@@ -57,6 +57,18 @@ export default function Projects() {
                                 </span>
                             ))}
                         </div>
+                        <div className="mt-4 flex gap-4 text-sm">
+                            {p.github && (
+                                <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition">
+                                    GitHub →
+                                </a>
+                            )}
+                            {p.live && (
+                                <a href={p.live} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition">
+                                    Live →
+                                </a>
+                            )}
+                        </div>
                     </div>
                 ))}
             </div>
