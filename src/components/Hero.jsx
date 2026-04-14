@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 
 export default function Hero() {
     return (
-        <section className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 placeholder-opacity-20 overflow-hidden">
+        <section id="hero" className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 placeholder-opacity-20 overflow-hidden">
 
             {/* Dot grid background */}
             <div

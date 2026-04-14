@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 export default function Navbar() {
     return (
         <nav className="fixed w-full bg-black/30 backdrop-blur-md border-b border-white/10 z-50 p-4 flex justify-between items-center">
-            <h1 className="text-accent font-mono">Yasara</h1>
+            <Link to="hero" smooth className="text-accent font-mono cursor-pointer">Yasara</Link>
 
             <div className="hidden md:flex space-x-6 items-center">
                 {["about", "skills", "projects", "certificates","contact"].map((item) => (
