@@ -17,7 +17,7 @@ export default function Projects() {
                         key={p.title} 
                         whileHover={{ y: -6}}
                         transition={{ duration: 0.2 }}
-                        className="bg-surface2 p-6 rounded-xl border border-white/10 hover:border-accent/40 cursor-default"
+                        className="bg-[#111111] p-6 rounded-xl border border-white/10 hover:border-accent/50 transition cursor-default"
                     >
                         <h3 className="text-xl font-semibold">{p.title}</h3>
                         <p className="text-muted mt-3 leading-relaxed">{p.description}</p>
@@ -31,9 +31,9 @@ export default function Projects() {
                         </div>
 
                         <div className="mt-6 flex gap-6 text-sm">
-                            <a href={p.github} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition">GitHub →</a>
+                            <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition">GitHub →</a>
                             {p.live && (
-                                <a href={p.live} target="_blank" rel="noopener noreferrer" className="hover:text-accent transition">Live →</a>
+                                <a href={p.live} target="_blank" rel="noopener noreferrer" className="text-white/50 hover:text-white transition">Live →</a>
                             )}
                         </div>
                     </motion.div>
@@ -59,12 +59,12 @@ export default function Projects() {
                         </div>
                         <div className="mt-4 flex gap-4 text-sm">
                             {p.github && (
-                                <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition">
+                                <a href={p.github} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">
                                     GitHub →
                                 </a>
                             )}
                             {p.live && (
-                                <a href={p.live} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-accent transition">
+                                <a href={p.live} target="_blank" rel="noopener noreferrer" className="text-white/40 hover:text-white transition">
                                     Live →
                                 </a>
                             )}
