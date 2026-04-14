@@ -10,9 +10,9 @@ export default function Skills() {
             <div className="grid md:grid-cols-2 gap-6">
                 {Object.entries(skills).map(([category, items]) => (
 
-                    <div key={category} className="bg-surface p-6 rounded-xl border border-white/20  cursor-default">
+                    <div key={category} className="bg-surface p-6 rounded-xl border border-white/10 border-l-2 border-l-accent/50 cursor-default">
                         
-                        <h3 className="text-sm uppercase tracking-wide text-muted mb-4">{category}</h3>
+                        <h3 className="text-sm uppercase tracking-widest text-accent/70 font-mono mb-4">{category}</h3>
 
                         <div className="flex flex-wrap gap-2">
                             {items.map((skill) => (
