@@ -1,7 +1,6 @@
 import { Link } from "react-scroll";
 import { Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { div } from "framer-motion/client";
 
 const navItems = ["about", "skills", "projects", "certificates", "contact"];
 
