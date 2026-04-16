@@ -1,7 +1,5 @@
-import { label } from "framer-motion/client";
 import SectionWrapper from "./SectionWrapper";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import { Icon } from "lucide-react";
 
 const links = [
   { icon: FaEnvelope, label: "Email", href: "mailto:yasarasamaraweera@gmail.com "},
